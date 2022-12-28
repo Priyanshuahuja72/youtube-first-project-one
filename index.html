@@ -1,0 +1,614 @@
+<!-- this is main html where we gonna write a code -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- CSS only of bootstrap file -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Space+Mono&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- Also connect css file with this html -->
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Youtube project</title>
+</head>
+<body class="main-body">
+    <!-- side navbar -->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="my-sdenavlogo"><img src="./images/Logo.png" alt=""></div>
+        <a href="#">Marketplace</a>
+        <a href="#">Ranking</a>
+        <a href="#">connect a wallet</a>
+        <div class="side-nav-signup-button">
+            <button>
+                <div class="side-bt-image"><img src="./images/User.png" alt=""></div>
+                <div class="side-bt-text"><span>Sign Up</span></div>
+            </button>
+        </div>
+      </div>
+    <header>
+        <div class="container">
+            <div class="header-main">
+                <div class="header-logo"><img src="./images/Logo.png" alt=""></div>
+                <div class="header-list-one">
+            <div class="header-list">
+                <ul>
+                    <li><a href="#home" data-replace="Marketplace"><span>Marketplace</span></a></li>
+                    <li><a href="#home" data-replace="Ranking"><span>Ranking</span></a></li>
+                    <li><a href="#home" data-replace="Connect to wallet"><span>Connect to wallet</span> </a></li>
+                </ul>
+            </div>
+            <div class="header-button"><button>Sign up</button></div>
+        </div>
+        <div class="header-side-navbar"><button onclick="openNav()"><div class="head-side-nav-img"><img src="./images/nav menu.png" alt=""></div></button></div>
+        </div>
+        </div>
+    </header>
+    <!-- second section -->
+    <section>
+        <div class="container">
+            <div class="main-banner-section">
+                <div class="m-b-one-sec">
+                    <div class="mbos-one">
+                        <div data-aos="fade-up"data-aos-duration="2000">
+                        <div class="mboso-head"><h1>Discover Digital art & Collect NFTs</h1></div>
+                    </div>
+                    <div data-aos="fade-up"data-aos-duration="3000">
+                        <div class="mboso-para"><p>NFT marketplace UI created with Anima for Figma. Collect, buy and sell art from more than 20k NFT artists.</p></div>
+                    </div>
+                    <div data-aos="fade-up"data-aos-duration="3000">
+                        <div class="mboso-but"><button>Get Started</button></div>
+                    </div>
+                        <div class="mboso-rating">
+                            <div class="rating-one">
+                                <div class="rating-heading"><h4>240k+</h4></div>
+                                <div class="rating-sale"><p>Total Sale</p></div>
+                            </div>
+                            <div class="rating-one">
+                                <div class="rating-heading"><h4>100k+</h4></div>
+                                <div class="rating-sale"><p>Auctions</p></div>
+                            </div>
+                            <div class="rating-one">
+                                <div class="rating-heading"><h4>240k+</h4></div>
+                                <div class="rating-sale"><p>Artists</p></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- mbos-two -->
+                    <div class="mbos-two">
+                        <div class="mbos-image"><img src="./images/Image Placeholder.png" alt=""></div>
+                        <div class="mbos-content">
+                            <div class="mbos-heading"><h5>Space Walking</h5></div>
+                            <div class="mbos-s-img">
+                                <div class="mbossi"><img src="./images/Asset 12 2.png" alt=""></div>
+                                <div class="mbossi-heading"><p>Animakid</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- second section -->
+    <section>
+        <div class="container">
+            <div class="trending-section">
+                <div data-aos="fade-up" data-aos-duration="2000">
+                <div class="trending-heading"><h3>Trending Collection</h3></div>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="2000">
+                <div class="trending-line"><p>Checkout our weekly updated trending collection.</p></div>
+            </div>
+                <div class="trending-card">
+                    <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000">
+                    <div class="trending-one-card">
+                        <div class="toc-main"><img src="./images/Primary Photo Placeholder.png" alt=""></div>
+                        <div class="toc-flex">
+                            <div class="toc-f-one"><img src="./images/Secondary Photo Placeholder.png" alt=""></div>
+                            <div class="toc-f-one"><img src="./images/Third Photo Placeholder.png" alt=""></div>
+                            <div class="toc-number"><h5>1025+</h5></div> 
+                        </div>
+                        <div class="toc-text"><h5>DSGN Animals</h5></div>
+                        <div class="text-second-image"><div class="toc-i"><img src="./images/Avatar.png" alt=""></div>
+                        <div class="toc-name"><span>MrFox</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="3000">
+                    <div class="trending-one-card">
+                        <div class="toc-main"><img src="./images/Mushrooms Photo Placeholder.png" alt=""></div>
+                        <div class="toc-flex">
+                            <div class="toc-f-one"><img src="./images/Secondary_Mushroom Photo Placeholder.png" alt=""></div>
+                            <div class="toc-f-one"><img src="./images/Secondary_Mush_second Photo Placeholder.png" alt=""></div>
+                            <div class="toc-number"><h5>1025+</h5></div>
+                        </div>
+                        <div class="toc-text"><h5>Magic Mushrooms</h5></div>
+                        <div class="text-second-image"><div class="toc-i"><img src="./images/Avatar_two.png" alt=""></div>
+                        <div class="toc-name"><span>Shroomie</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="3000">
+                    <div class="trending-one-card">
+                        <div class="toc-main"><img src="./images/Primary_three Photo Placeholder.png" alt=""></div>
+                        <div class="toc-flex">
+                            <div class="toc-f-one"><img src="./images/Secondary_three_one Photo Placeholder.png" alt=""></div>
+                            <div class="toc-f-one"><img src="./images/Secondary_three_two Photo Placeholder.png" alt=""></div>
+                            <div class="toc-number"><h5>1025+</h5></div>
+                        </div>
+                        <div class="toc-text"><h5>Disco Machines</h5></div>
+                        <div class="text-second-image"><div class="toc-i"><img src="./images/Avatar_three Placeholder.png" alt=""></div>
+                        <div class="toc-name"><span>BeKind2Robots</span></div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- third section -->
+    <section>
+        <div class="container">
+            <div class="creator-section">
+                <div class="creator-text-sec">
+                    <div class="c-data">
+                    <div class="c-head"><h3>Top creators</h3></div>
+                    <div class="c-para"><p>Checkout Top Rated Creators on the NFT Marketplace</p></div>
+                </div>
+                <div class="creator-button">
+                <button><div class="button-class">
+                <div class="button-main-image">
+                <div class="button-img"><img src="./images/RocketLaunch.png" alt=""></div>
+                <div class="button-ab-img"><img src="./images/RocketLaunch_white.png" alt=""></div>
+                </div>
+                <div class="button-text">View Ranking</div></div>
+                </button>
+                </div>
+                </div>
+                <div class="creator-grid-section">
+                    <div class="creator-grid">
+                        <div class="creator-card-one">
+                            <div class="creator-number"><span>1</span></div>
+                            <div class="creator-data">
+                            <div data-aos="zoom-in" data-aos-duration="3000">
+                            <div class="creator-image"><img src="./images/Artist Avatar_one.png" alt=""></div>
+                            </div>
+                            <div class="creator-cell">
+                            <div class="creator-name"><h5>KeepitReal</h5></div>
+                            <div class="creator-sale"><p>Total Sales: <span>34.53 ETH</span></p></div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="creator-card-one">
+                            <div class="creator-number"><span>2</span></div>
+                            <div class="creator-data">
+                            <div data-aos="zoom-in" data-aos-duration="3000">
+                            <div class="creator-image"><img src="./images/Artist Avatar_two.png" alt=""></div>
+                        </div>
+                            <div class="creator-cell">
+                            <div class="creator-name"><h5>DigiLab</h5></div>
+                            <div class="creator-sale"><p>Total Sales: <span>34.53 ETH</span></p></div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="creator-card-one">
+                            <div class="creator-number"><span>3</span></div>
+                            <div class="creator-data">
+                            <div data-aos="zoom-in" data-aos-duration="3000">
+                            <div class="creator-image"><img src="./images/Artist Avatar_three.png" alt=""></div>
+                           </div>
+                           <div class="creator-cell">
+                            <div class="creator-name"><h5>GravityOne</h5></div>
+                            <div class="creator-sale"><p>Total Sales: <span>34.53 ETH</span></p></div>
+                        </div>
+                            </div>
+                        </div>
+                        <div class="creator-card-one">
+                            <div class="creator-number"><span>4</span></div>
+                            <div class="creator-data">
+                            <div data-aos="zoom-in" data-aos-duration="3000">
+                            <div class="creator-image"><img src="./images/Artist Avatar_four.png" alt=""></div>
+                            </div>
+                            <div class="creator-cell">
+                            <div class="creator-name"><h5>Juanie</h5></div>
+                            <div class="creator-sale"><p>Total Sales: <span>34.53 ETH</span></p></div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="creator-card-one">
+                            <div class="creator-number"><span>5</span></div>
+                            <div class="creator-data">
+                            <div data-aos="zoom-in" data-aos-duration="3000">
+                            <div class="creator-image"><img src="./images/Artist Avatar_five.png" alt=""></div>
+                           </div>
+                           <div class="creator-cell">
+                            <div class="creator-name"><h5>BlueWhale</h5></div>
+                            <div class="creator-sale"><p>Total Sales: <span>34.53 ETH</span></p></div>
+                        </div>
+                            </div>
+                        </div>
+                        <div class="creator-card-one">
+                            <div class="creator-number"><span>6</span></div>
+                            <div class="creator-data">
+                            <div data-aos="zoom-in" data-aos-duration="3000">
+                            <div class="creator-image"><img src="./images/Artist Avatar_six.png" alt=""></div>
+                            </div>
+                            <div class="creator-cell">
+                            <div class="creator-name"><h5>Mr fox</h5></div>
+                            <div class="creator-sale"><p>Total Sales: <span>34.53 ETH</span></p></div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="creator-card-one">
+                            <div class="creator-number"><span>7</span></div>
+                            <div class="creator-data">
+                            <div data-aos="zoom-in" data-aos-duration="3000">
+                            <div class="creator-image"><img src="./images/Artist Avatar_seven.png" alt=""></div>
+                            </div>
+                            <div class="creator-cell">
+                            <div class="creator-name"><h5>Shroomie</h5></div>
+                            <div class="creator-sale"><p>Total Sales: <span>34.53 ETH</span></p></div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="creator-card-one">
+                            <div class="creator-number"><span>8</span></div>
+                            <div class="creator-data">
+                            <div data-aos="zoom-in" data-aos-duration="3000">
+                            <div class="creator-image"><img src="./images/Artist Avatar_eight.png" alt=""></div>
+                            </div>
+                            <div class="creator-cell">
+                            <div class="creator-name"><h5>robotica</h5></div>
+                            <div class="creator-sale"><p>Total Sales: <span>34.53 ETH</span></p></div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="creator-card-one">
+                            <div class="creator-number"><span>9</span></div>
+                            <div class="creator-data">
+                            <div data-aos="zoom-in" data-aos-duration="3000">
+                            <div class="creator-image"><img src="./images/Artist Avatar_nine.png" alt=""></div>
+                           </div>
+                            <div class="creator-cell">
+                            <div class="creator-name"><h5>RustyRobot</h5></div>
+                            <div class="creator-sale"><p>Total Sales: <span>34.53 ETH</span></p></div>
+                           </div>
+                            </div>
+                        </div>
+                        <div class="creator-card-one">
+                            <div class="creator-number"><span>10</span></div>
+                            <div class="creator-data">
+                            <div data-aos="zoom-in" data-aos-duration="3000">
+                            <div class="creator-image"><img src="./images/Artist Avatar_ten.png" alt=""></div>
+                            </div>
+                            <div class="creator-cell">
+                            <div class="creator-name"><h5>animakid</h5></div>
+                            <div class="creator-sale"><p>Total Sales: <span>34.53 ETH</span></p></div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="creator-card-one">
+                            <div class="creator-number"><span>11</span></div>
+                            <div class="creator-data">
+                            <div data-aos="zoom-in" data-aos-duration="3000">
+                            <div class="creator-image"><img src="./images/Artist Avatar_eleven.png" alt=""></div>
+                            </div>
+                            <div class="creator-cell">
+                            <div class="creator-name"><h5>Dotgu</h5></div>
+                            <div class="creator-sale"><p>Total Sales: <span>34.53 ETH</span></p></div>
+                           </div>
+                            </div>
+                        </div>
+                        <div class="creator-card-one">
+                            <div class="creator-number"><span>12</span></div>
+                            <div class="creator-data">
+                            <div data-aos="zoom-in" data-aos-duration="3000">
+                            <div class="creator-image"><img src="./images/Artist Avatar_twelve.png" alt=""></div>
+                            </div>
+                            <div class="creator-cell">
+                            <div class="creator-name"><h5>Ghiblier</h5></div>
+                            <div class="creator-sale"><p>Total Sales: <span>34.53 ETH</span></p></div>
+                        </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- fourth section -->
+    <section>
+        <div class="container">
+            <div class="browse-section">
+                <div class="browse-cat"><h3>Browse Categories</h3></div>
+                <div class="browse-grid-section">
+                    <div class="browse-card-one">
+                        <div class="browse-image"><img src="./images/browze_one.png" alt=""></div>
+                        <div class="browse-des">
+                            <div data-aos="flip-down" data-aos-duration="3000">
+                                <h5>Art</h5>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="browse-card-one">
+                        <div class="browse-image"><img src="./images/browse_two.png" alt=""></div>
+                        <div class="browse-des">
+                         <div data-aos="flip-down"data-aos-duration="3000">
+                             <h5>Collectibles</h5>
+                         </div>
+                    </div>
+                    </div>
+                    <div class="browse-card-one">
+                        <div class="browse-image"><img src="./images/browse_three.png" alt=""></div>
+                        <div class="browse-des">
+                         <div data-aos="flip-down"data-aos-duration="3000">
+                            <h5>Music</h5>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="browse-card-one">
+                        <div class="browse-image"><img src="./images/browse_four.png" alt=""></div>
+                        <div class="browse-des">
+                        <div data-aos="flip-down"data-aos-duration="3000">
+                        <h5>Photography</h5>
+                       </div>
+                    </div>
+                    </div>
+                    <div class="browse-card-one">
+                        <div class="browse-image"><img src="./images/browse_five.png" alt=""></div>
+                        <div class="browse-des">
+                            <div data-aos="flip-down"data-aos-duration="3000">
+                            <h5>Video</h5>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="browse-card-one">
+                        <div class="browse-image"><img src="./images/browse_six.png" alt=""></div>
+                        <div class="browse-des">
+                            <div data-aos="flip-down"data-aos-duration="3000">
+                            <h5>Utility</h5>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="browse-card-one">
+                        <div class="browse-image"><img src="./images/browse_seven.png" alt=""></div>
+                        <div class="browse-des">
+                            <div data-aos="flip-down"data-aos-duration="3000">
+                            <h5>Virtual Worlds</h5>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="browse-card-one">
+                        <div class="browse-image"><img src="./images/browse_eight.png" alt=""></div>
+                        <div class="browse-des">
+                            <div data-aos="flip-down"data-aos-duration="3000">
+                            <h5>Sport</h5>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- fifth section -->
+    <section>
+        <div class="container">
+            <div class="discover-section">
+                <div class="discover-upper-sec">
+                    <div class="discover-head">
+                        <div data-aos="fade-down" data-aos-duration="3000">
+                            <div class="dis-heading"><h3>Discover More NFTs</h3></div>
+                            <div class="discover-span"><p>Explore new trending NFTs</p></div>
+                        </div>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="3000">
+                    <div class="dicover-button">
+                    <button>
+                    <div class="disc-button-data">
+                    <div class="dis-but-icon"><img src="./images/Eye.png" alt=""></div>
+                    <div class="dis-button-text">See All</div>
+                    </div>
+                    </button></div>
+                </div>
+                </div>
+                <div class="discover-flex-section">
+                    <div class="d-flex-card-one">
+                        <div class="discover-image-one"><img src="./images/discover-one.png" alt=""></div>
+                        <div class="discover-data">
+                            <div data-aos="fade-down" data-aos-duration="3000">
+                            <div class="discover-data-heading"><h5>Distant Galaxy</h5></div>
+                            <div class="discover-image-and-data">
+                                <div class="dis-small-img"><img src="./images/MoonDancer.png" alt=""></div>
+                                <div class="dis-small-name"><span>MoonDancer</span></div>
+                            </div>
+                        </div>
+                        <div data-aos="fade-up" data-aos-duration="3000">
+                            <div class="discover-align">
+                                <div class="disc-align-one">
+                                    <div class="discover-price"><span>Price</span></div>
+                                    <div class="discover-money"><span>1.63 ETH</span></div>
+                                </div>
+                                <div class="disc-align-one">
+                                    <div class="discover-price"><span>Highest Bid</span></div>
+                                    <div class="discover-money"><span>0.33 wETH</span></div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="d-flex-card-one">
+                        <div class="discover-image-one"><img src="./images/discover-two.png" alt=""></div>
+                        <div class="discover-data">
+                            <div data-aos="fade-down" data-aos-duration="3000">
+                            <div class="discover-data-heading"><h5>Life On Edena</h5></div>
+                            <div class="discover-image-and-data">
+                                <div class="dis-small-img"><img src="./images/NebulaDancer.png" alt=""></div>
+                                <div class="dis-small-name"><span>NebulaKid</span></div>
+                            </div>
+                        </div>
+                        <div data-aos="fade-up" data-aos-duration="3000">
+                            <div class="discover-align">
+                                <div class="disc-align-one">
+                                    <div class="discover-price"><span>Price</span></div>
+                                    <div class="discover-money"><span>1.63 ETH</span></div>
+                                </div>
+                                <div class="disc-align-one">
+                                    <div class="discover-price"><span>Highest Bid</span></div>
+                                    <div class="discover-money"><span>0.33 wETH</span></div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex-card-one">
+                        <div class="discover-image-one"><img src="./images/discover-three.png" alt=""></div>
+                        <div class="discover-data">
+                            <div data-aos="fade-down" data-aos-duration="3000">
+                            <div class="discover-data-heading"><h5>AstroFiction</h5></div>
+                            <div class="discover-image-and-data">
+                                <div class="dis-small-img"><img src="./images/SpaceOne.png" alt=""></div>
+                                <div class="dis-small-name"><span>Spaceone</span></div>
+                            </div>
+                        </div>
+                        <div data-aos="fade-up" data-aos-duration="3000">
+                            <div class="discover-align">
+                                <div class="disc-align-one">
+                                    <div class="discover-price"><span>Price</span></div>
+                                    <div class="discover-money"><span>1.63 ETH</span></div>
+                                </div>
+                                <div class="disc-align-one">
+                                    <div class="discover-price"><span>Highest Bid</span></div>
+                                    <div class="discover-money"><span>0.33 wETH</span></div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- sixth section(Banner section) -->
+    <section>
+        <div class="banner-section">
+            <div class="container">
+                <div class="banner-content">
+                    <div data-aos="fade-up" data-aos-duration="3000">
+                    <div class="banner-user">
+                        <div class="banner-user-and-image">
+                        <div class="user-image"><img src="./images/Avatar_two.png" alt=""></div>
+                        <div class="user-name"><span>Shroomie</span></div>
+                    </div>
+                        <div class="banner-heading"><h2>Magic Mashrooms</h2></div>
+                        <div class="banner-button"><button><div class="button-icon"><img src="./images/Eye.png" alt=""></div><div class="button-text"><span>See NFT</span></div></button></div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- seventh section -->
+    <section>
+        <div class="container">
+            <div class="seventh-data-sec">
+                <div class="sev-heading"><h3>How it Works</h3></div>
+                <div class="sev-para"><p>Find out how to get started</p></div>
+            </div>
+            <div class="seventh-card">
+                <div class="seventh-card-one">
+                    <div class="seventh-card-image"><img src="./images/seventh-sectio-image.png" alt=""></div>
+                <div class="seveenth-data">
+                    <div class="seveenth-sec-heading"><h5>Setup Your wallet</h5></div>
+                    <div class="seventh-para"><span>Set up your wallet of choice. Connect it to the Animarket by clicking the wallet icon in the top right corner.</span></div>
+                </div>
+            </div>
+            <div class="seventh-card-one">
+                <div class="seventh-card-image"><img src="./images/seventh-sectio-image.png" alt=""></div>
+            <div class="seveenth-data">
+                <div class="seveenth-sec-heading"><h5>Setup Your wallet</h5></div>
+                <div class="seventh-para"><span>Set up your wallet of choice. Connect it to the Animarket by clicking the wallet icon in the top right corner.</span></div>
+            </div>
+        </div>
+        <div class="seventh-card-one">
+            <div class="seventh-card-image"><img src="./images/seventh-sectio-image.png" alt=""></div>
+        <div class="seveenth-data">
+            <div class="seveenth-sec-heading"><h5>Setup Your wallet</h5></div>
+            <div class="seventh-para"><span>Set up your wallet of choice. Connect it to the Animarket by clicking the wallet icon in the top right corner.</span></div>
+        </div>
+        </div>
+            </div>
+        </div>
+    </section>
+    <!-- eight section -->
+    <section>
+        <div class="eight-section">
+        <div class="container">
+            <div class="join-main-con">
+                <div class="space-image"><img src="./images/space_image.png" alt=""></div>
+                <div class="space-right-section">
+                    <div class="space-r-heading"><h3>Join our weekly digest</h3></div>
+                    <div class="space-reading"><p>Get exclusive promotions & updates straight to your inbox.</p></div>
+                    <div class="email-section">
+                        <div class="email-input"><input type="email" placeholder="Enter your email here"></div>
+                        <div class="email-button"><button><div class="main-button"><div class="mail-icon"><img src="./images/email-sign.png" alt=""></div><div class="main-text"><span>Subscribe</span></div></button></div>
+                    </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!-- footer section -->
+<footer class="footer-section">
+    <div class="container">
+        <div class="main-footer">
+            <div class="footer-sec-one">
+                <div class="footer-logo"><img src="./images/Logo.png" alt=""></div>
+                <div class="footer-text-one"><span>NFT marketplace UI created with Anima for Figma.</span></div>
+                <div class="footer-text-two"><span>Join our community</span></div>
+                <div class="footer-sec-icon">
+                    <div class="f-icon-one"><a href=""><img src="./images/DiscordLogo.png" alt=""></a></div>
+                    <div class="f-icon-one"><a href="https://www.youtube.com/channel/UCAI3oSulaH4lVK818Ov1Ouw"><img src="./images/YoutubeLogo.png" alt=""></a></div>
+                    <div class="f-icon-one"><a href=""><img src="./images/TwitterLogo.png" alt=""></a></div>
+                    <div class="f-icon-one"><a href="https://www.instagram.com/priyanshuahuja72/"><img src="./images/InstagramLogo.png" alt=""></a></div>
+                </div>
+            </div>
+            <div class="footer-sec-one">
+                <div class="footer-Explore"><h5>Explore</h5></div>
+                <div class="footer-text-one"><a href=""><span>Marketplace</span></a></div>
+                <div class="footer-text-one"><a href=""><span>Rankings</span></a></div>
+                <div class="footer-text-two"><a href=""><span>Connect a Wallet</span></a></div>
+            </div>
+            <div class="footer-sec-one">
+                <div class="footer-Explore"><h5>Join our weekly digest</h5></div>
+                <div class="footer-text-one"><a href=""><span>Get exclusive promotions & updates straight to your inbox.</span></a></div>
+                <div class="footer-email-section">
+                    <div class="footer-email-input"><input type="email" placeholder="Enter your email here"></div>
+                    <div class="footer-email-button"><button>Subscribe</button></div>
+                </div>
+            </div>
+        </div>
+        <!-- Main footer-name -->
+        <div class="footer-name">
+            <span>Made by Priyanshu Ahuja</span>
+        </div>
+    </div>
+</footer>
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+//   side navbar javascript
+// function for open navbar
+function openNav() {
+  document.getElementById("mySidenav").style.width = "100%";
+}
+// function for close navbar
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+</html>
