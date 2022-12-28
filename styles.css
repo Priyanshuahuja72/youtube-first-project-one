@@ -1257,3 +1257,16 @@ p {
         left: 0px;
     }
 }
+@media(max-width: 350px)
+{
+    .footer-email-input input {
+        width: 300px;
+    }
+    .footer-email-button button {
+        width: 300px;
+    }
+    .dicover-button button {
+        background: transparent;
+        padding: 13px 93px;
+    }
+}
