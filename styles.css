@@ -1270,3 +1270,17 @@ p {
         padding: 13px 93px;
     }
 }
+@media(max-width: 400px)
+{
+    .dicover-button button {
+        background: transparent;
+        padding: 17px 124px;
+    }
+    .email-input input {
+        padding: 10px;
+        width: 347px;
+    }
+    .email-button button {
+        width: 350px;
+    }
+}
